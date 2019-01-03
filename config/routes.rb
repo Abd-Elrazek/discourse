@@ -315,6 +315,7 @@ Discourse::Application.routes.draw do
     end
   end
 
+  get "review" => "review#index"
   get "session/sso" => "session#sso"
   get "session/sso_login" => "session#sso_login"
   get "session/sso_provider" => "session#sso_provider"
